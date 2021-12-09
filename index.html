@@ -6,6 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Ecommerce - Home</title>
     <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Raleway:wght@400;700;900&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="css/app.css" />
   </head>
   <body>
@@ -26,123 +32,127 @@
 
     <div class="hero"></div>
 
-    <section>
-      <h2>Categorías de productos</h2>
-      <div>
-        <img src="img/categoria1.jpg" alt="Imagen Categoría" />
-        <a href="#">Oficina</a>
-      </div>
-      <div>
-        <img src="img/categoria2.jpg" alt="Imagen Categoría" />
-        <a href="#">Hogar</a>
-      </div>
-      <div>
-        <img src="img/categoria3.jpg" alt="Imagen Categoría" />
-        <a href="#">Cocina</a>
+    <section class="contenedor categorias">
+      <h2 class="text-center">Categorías de productos</h2>
+      <div class="listado-categorias">
+        <div class="categoria">
+          <img src="img/categoria1.jpg" alt="Imagen Categoría" />
+          <a href="#">Oficina</a>
+        </div>
+        <div class="categoria">
+          <img src="img/categoria2.jpg" alt="Imagen Categoría" />
+          <a href="#">Hogar</a>
+        </div>
+        <div class="categoria">
+          <img src="img/categoria3.jpg" alt="Imagen Categoría" />
+          <a href="#">Cocina</a>
+        </div>
       </div>
     </section>
 
     <section class="sobre-nosotros">
-      <div>
-        <h2>Sobre Nosotros</h2>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur animi
-          amet quibusdam error rem dolorum quisquam omnis harum inventore nobis
-          voluptas repudiandae voluptatem numquam temporibus necessitatibus,
-          dolorem porro. Laboriosam, officia.
-        </p>
+      <div class="contenedor sobre-nosotros-grid">
+        <div class="texto-nosotros">
+          <h2>Sobre Nosotros</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur
+            animi amet quibusdam error rem dolorum quisquam omnis harum
+            inventore nobis voluptas repudiandae voluptatem numquam temporibus
+            necessitatibus, dolorem porro. Laboriosam, officia.
+          </p>
+        </div>
       </div>
     </section>
 
-    <main>
-      <h2>Nuestros Productos</h2>
+    <main class="contenido-principal contenedor">
+      <h2 class="text-center">Nuestros Productos</h2>
 
-      <div>
-        <div>
+      <div class="listado-productos">
+        <div class="producto">
           <img src="img/producto1.jpg" alt="Imagen Producto" />
-          <div>
+          <div class="texto-producto">
             <h3>Producto 1</h3>
             <p>
               Lorem Ipsum is simply dummy text of the printing and typesetting
               industry. Lorem Ipsum has been the industry's standard
             </p>
-            <p>$1,000,000.00</p>
-            <a href="#">Agregar al carrito</a>
+            <p class="precio">$1,000,000.00</p>
+            <a class="btn" href="#">Agregar al carrito</a>
           </div>
           <!-- Info Producto -->
         </div>
         <!-- Producto -->
 
-        <div>
+        <div class="producto">
           <img src="img/producto2.jpg" alt="Imagen Producto" />
-          <div>
+          <div class="texto-producto">
             <h3>Producto 2</h3>
             <p>
               Lorem Ipsum is simply dummy text of the printing and typesetting
               industry. Lorem Ipsum has been the industry's standard
             </p>
-            <p>$1,000,000.00</p>
-            <a href="#">Agregar al carrito</a>
+            <p class="precio">$1,000,000.00</p>
+            <a class="btn" href="#">Agregar al carrito</a>
           </div>
           <!-- Info Producto -->
         </div>
         <!-- Producto -->
 
-        <div>
+        <div class="producto">
           <img src="img/producto3.jpg" alt="Imagen Producto" />
-          <div>
+          <div class="texto-producto">
             <h3>Producto 3</h3>
             <p>
               Lorem Ipsum is simply dummy text of the printing and typesetting
               industry. Lorem Ipsum has been the industry's standard
             </p>
-            <p>$1,000,000.00</p>
-            <a href="#">Agregar al carrito</a>
+            <p class="precio">$1,000,000.00</p>
+            <a class="btn" href="#">Agregar al carrito</a>
           </div>
           <!-- Info Producto -->
         </div>
         <!-- Producto -->
 
-        <div>
+        <div class="producto">
           <img src="img/producto4.jpg" alt="Imagen Producto" />
-          <div>
+          <div class="texto-producto">
             <h3>Producto 4</h3>
             <p>
               Lorem Ipsum is simply dummy text of the printing and typesetting
               industry. Lorem Ipsum has been the industry's standard
             </p>
-            <p>$1,000,000.00</p>
-            <a href="#">Agregar al carrito</a>
+            <p class="precio">$1,000,000.00</p>
+            <a class="btn" href="#">Agregar al carrito</a>
           </div>
           <!-- Info Producto -->
         </div>
         <!-- Producto -->
 
-        <div>
+        <div class="producto">
           <img src="img/producto5.jpg" alt="Imagen Producto" />
-          <div>
+          <div class="texto-producto">
             <h3>Producto 5</h3>
             <p>
               Lorem Ipsum is simply dummy text of the printing and typesetting
               industry. Lorem Ipsum has been the industry's standard
             </p>
-            <p>$1,000,000.00</p>
-            <a href="#">Agregar al carrito</a>
+            <p class="precio">$1,000,000.00</p>
+            <a class="btn" href="#">Agregar al carrito</a>
           </div>
           <!-- Info Producto -->
         </div>
         <!-- Producto -->
 
-        <div>
+        <div class="producto">
           <img src="img/producto6.jpg" alt="Imagen Producto" />
-          <div>
+          <div class="texto-producto">
             <h3>Producto 6</h3>
             <p>
               Lorem Ipsum is simply dummy text of the printing and typesetting
               industry. Lorem Ipsum has been the industry's standard
             </p>
-            <p>$1,000,000.00</p>
-            <a href="#">Agregar al carrito</a>
+            <p class="precio">$1,000,000.00</p>
+            <a class="btn" href="#">Agregar al carrito</a>
           </div>
           <!-- Info Producto -->
         </div>
@@ -151,36 +161,38 @@
       <!-- Fin de listado de productos -->
     </main>
 
-    <footer>
-      <div>
-        <h3>Categorías</h3>
-        <nav>
-          <a href="">Cocina</a>
-          <a href="">Oficina</a>
-          <a href="">Jardín</a>
-          <a href="">Cochera</a>
-          <a href="">Dormitorios</a>
-        </nav>
+    <footer class="site-footer">
+      <div class="grid-footer contenedor">
+        <div>
+          <h3>Categorías</h3>
+          <nav class="footer-menu">
+            <a href="">Cocina</a>
+            <a href="">Oficina</a>
+            <a href="">Jardín</a>
+            <a href="">Cochera</a>
+            <a href="">Dormitorios</a>
+          </nav>
+        </div>
+        <div>
+          <h3>Sobre Nosotros</h3>
+          <nav class="footer-menu">
+            <a href="">Nuestra Historia</a>
+            <a href="">Mision, Visión y Valores</a>
+            <a href="">Carreras</a>
+            <a href="">Política de Privacidad</a>
+            <a href="">Términos del Servicio</a>
+          </nav>
+        </div>
+        <div>
+          <h3>Soporte</h3>
+          <nav class="footer-menu">
+            <a href="">Preguntas Frecuentes</a>
+            <a href="">Ayuda en Línea</a>
+            <a href="">Confianza y Seguridad</a>
+          </nav>
+        </div>
       </div>
-      <div>
-        <h3>Sobre Nosotros</h3>
-        <nav>
-          <a href="">Nuestra Historia</a>
-          <a href="">Mision, Visión y Valores</a>
-          <a href="">Carreras</a>
-          <a href="">Política de Privacidad</a>
-          <a href="">Términos del Servicio</a>
-        </nav>
-      </div>
-      <div>
-        <h3>Soporte</h3>
-        <nav>
-          <a href="">Preguntas Frecuentes</a>
-          <a href="">Ayuda en Línea</a>
-          <a href="">Confianza y Seguridad</a>
-        </nav>
-      </div>
-      <p>Todos los derechos Reservados, TiendaMuebles</p>
+      <p class="copyright">Todos los derechos Reservados, TiendaMuebles</p>
     </footer>
   </body>
 </html>
